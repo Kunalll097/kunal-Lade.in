@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    /* position: absolute; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color:rgba(227, 188, 138, 0.849);
+    width: 90vw;
+}
+
+.container {
+    background-color: rgba(203, 95, 95, 0.737);
+    display: flex;
+
+}
+
+.infocontainer {
+    display: flex;
+    background-color: grey;
+    height: 55vh;
+    width: 70vw;
+    margin: 147px auto;
+    justify-content: space-around;
+}
+
+.devinfo {
+    font-size: 18px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Oswald', 'Roboto Condensed', sans-serif;
+}
+
+.Hello {
+    font-size: 4em;
+}
+
+.Name {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.About {
+    font-size: 3em;
+}
+
+.MoreAbout {
+    font-size: 1.5em;
+}
+
+.buttons {
+    margin-top: 1.5em;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 15px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 0.60em;
+    margin: 3px 4px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.devPic img {
+    height: 55vh;
+    width: 20vw;
+}
+
+.contactform {
+    background-color: white;
+    padding: 122px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .contactform div{
+  margin: 0;
+  padding: 0;
+} */
+
+.contactform div input {
+    border-radius: 2px;
+}
+
+.contactform h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: midnightblue;
+}
+
+.blogitem {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blogcontainer h1 {
+    font-size: larger;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blogitem p {
+    margin: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro {
+    margin: 100px;
+}
+
+.intro h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.skillcontainer {
+    padding: 2px;
+}
+
+.skillitem {
+    font-size: larger;
+    display: flex;
+    align-items: center;
+}
+
+.skill {
+    width: 265px;
+    height: 8px;
+    background-color: midnightblue;
+    border: 2px solid black;
+}
+
+.Ninety {
+    width: 235px;
+    background-color: orange;
+}
+
+.fifty {
+    width: 133px;
+    background-color: red;
+}
+
+.seventy {
+    width: 194px;
+    background-color: skyblue;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    left: 22px;
+}
+
+.ham {
+    margin-top: 2px;
+}
+
+.cross {
+    margin-left: 199px;
+    margin-top: 2px;
+}
+
+@media (max-width: 1094px) {
+    *{
+        background-color:white,rgba(227, 188, 138, 0.849);
+    }
+
+    .main{
+        background-color:rgba(227, 188, 138, 0.849);
+    }
+
+    .infocontainer{
+        background-color: grey;
+    }
+
+    .devinfo{
+        font-size: 12px;
+    }
+
+    .buttons{
+        font-size: 16px;
+    }
+
+    .devPic {
+        display: none;
+    }
+
+    .intro, .blogcontainer,.contactform {
+
+        margin:50px 10px;
+    }
+}
